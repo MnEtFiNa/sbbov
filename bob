@@ -30,7 +30,9 @@ Services = setmetatable({}, {
 })
 
 GuiService = Services.GuiService
-
+queueteleport([=[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MnEtFiNa/sbbov/refs/heads/main/bob"))()
+]=])
 if firetouchinterest then
                 firetouchinterest(root, portal, 0)
                 task.wait(0.1)
@@ -48,4 +50,4 @@ local p = game:GetService("Players").LocalPlayer
 ts:Teleport(game.PlaceId, p)
 end)
 
-queueteleport("loadstring(game:HttpGet("https://raw.githubusercontent.com/MnEtFiNa/sbbov/refs/heads/main/bob"))()")
+

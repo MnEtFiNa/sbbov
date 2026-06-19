@@ -47,3 +47,5 @@ GuiService.ErrorMessageChanged:Connect(function()
 local p = game:GetService("Players").LocalPlayer
 ts:Teleport(game.PlaceId, p)
 end)
+
+queueteleport("https://raw.githubusercontent.com/MnEtFiNa/sbbov/refs/heads/main/bob")
